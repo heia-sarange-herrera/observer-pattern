@@ -23,5 +23,5 @@ This repository contains a clean, generic, and extensible implementation of the 
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/observer-pattern-java.git
+git clone https://github.com/heia-sarange-herrera/observer-pattern.git
 cd observer-pattern-java
