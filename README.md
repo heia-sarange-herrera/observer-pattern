@@ -1,18 +1,27 @@
+# Observer Pattern - Generic Subject & Observer in Java
+
+This repository contains a clean, generic, and extensible implementation of the **Observer Pattern** in Java, designed with flexibility and simplicity in mind.
+
+---
+
+## Features
+
+- Generic `Subject<T>` base class supporting:
+  - Attaching, detaching, and managing multiple observers.
+  - Broadcasting updates to all observers.
+  - Multicasting updates excluding one or multiple observers.
+  - Whispering notifications to a single observer.
+  - Payload support with generic data type.
+- Simple `Observer<T>` contract with overloaded `received()` methods.
+- Thread-safe ready (can be adapted easily).
+- Minimal dependencies, pure Java SE.
+
+---
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Clone the repository:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+git clone https://github.com/yourusername/observer-pattern-java.git
+cd observer-pattern-java
